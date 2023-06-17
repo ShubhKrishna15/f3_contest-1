@@ -1,0 +1,112 @@
+.Employees{
+
+    padding: 30px;
+    
+}
+
+.inputDetails{
+
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 10px;
+    justify-content: space-around;
+
+}
+.inputDetails > div{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.inputDetails > div > input{
+
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    caret-color: white;
+
+}
+.inputDetails > div > input:focus {
+    outline: none; /* Remove the default focus outline */
+    background-color: black; /* Set the background color to black */
+  }
+.inputDetails > div > label{
+
+    color: white;
+
+}
+.newEmployees > h3{
+
+    color: white ;
+}
+
+.addUser{
+
+    margin-top: 16px;
+    color: white;
+    
+}
+.addUser > button{
+
+    padding: 10px 20px 10px 20px;
+
+    
+} 
+
+.viewFlex{
+
+    display: flex;
+    gap: 30px;
+    justify-items: center;
+}
+
+.viewContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+
+}
+.viewFlex > .info {
+
+    display: flex;
+    gap: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    justify-self: center;
+    
+    /* flex-direction: row; */
+}
+.deleteButton{
+
+    
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+}
+.ErrorMessage{
+
+    color: red;
+}
+.SuccessMessage{
+
+    color: green;
+}
+
+body{
+
+    background-color: black;
+}
+
+.view div h3 {
+    color: white
+}
+
+.default{
+    color:rgb(112,112,112) ;
+}
